@@ -11,4 +11,4 @@ streamlit==1.25.0
 tokenizers==0.13.3
 transformers==4.31.0
 unstructured==0.9.3
-llama-cpp-python
+llama-cpp-python==0.1.77
