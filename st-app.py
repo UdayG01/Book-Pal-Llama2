@@ -153,7 +153,7 @@ def main():
         for percent_complete in range(76, 100):
           time.sleep(0.1)
           myBar.progress(percent_complete + 1, text=progress_text)
-        myBar.progess(100, text="Done")
+        myBar.progress(100, text="Done")
 
 if __name__ == '__main__':
   main()
