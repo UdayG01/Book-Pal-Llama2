@@ -60,7 +60,7 @@ def get_vectorstore(docs):
   return db
 
 def get_conversation_chain(vectorstore):
-  n_gpu_layers = 80
+  n_gpu_layers = 40
   n_batch = 1024
 
   # Loading model,
