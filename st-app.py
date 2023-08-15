@@ -60,8 +60,8 @@ def get_vectorstore(docs):
   return db
 
 def get_conversation_chain(vectorstore):
-  n_gpu_layers = 40
-  n_batch = 512
+  n_gpu_layers = 80
+  n_batch = 1024
 
   # Loading model,
   llm = LlamaCpp(
@@ -153,6 +153,7 @@ def main():
         for percent_complete in range(76, 100):
           time.sleep(0.1)
           myBar.progress(percent_complete + 1, text=progress_text)
+        myBar.progess(100, text="Done")
 
 if __name__ == '__main__':
   main()
