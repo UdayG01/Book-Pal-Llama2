@@ -32,7 +32,7 @@ Our application utilizes vector stores like Pinecone and Chroma to efficiently s
 ## 🛠️ Technical Details
 
 ### 🏗️ Architecture
-The application is built using a combination of Python and JavaScript, with the LLaMA2 LLM and Langchain integrated using the Hugging Face Transformers library. The document loader is designed to be compatible with various eBook formats, ensuring a seamless user experience. The Streamlit UI provides an intuitive interface for users to interact with the application.
+The application is built using Python, harnessing the power of LLaMA2 LLM and Langchain integrated using the Hugging Face Transformers library. The document loader is designed to be compatible with various eBook formats, ensuring a seamless user experience. The Streamlit UI provides an intuitive interface for users to interact with the application.
 
 ### ⚡ Performance
 The application is optimized for performance, with the LLaMA2 LLM and Langchain working together to provide fast and accurate responses. The vector stores are designed to handle large amounts of data, ensuring that the application remains responsive even with a large number of users.
